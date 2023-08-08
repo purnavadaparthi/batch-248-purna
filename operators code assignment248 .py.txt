@@ -1,0 +1,87 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[24]:
+
+
+# arithmatic operators
+a=2
+b=3
+print(a+b) # add operator
+print(a-b) # sub operator
+print(a*b) # multiply operator
+print(b/a) # div operator
+print(a%b) # modulus operator
+print(b//a)# float division operator
+# comparission operators
+a=2
+b=3
+print(a==b) # a equals to b
+print(a!=b) # a not equals b
+print(a>b) # a greater than b
+print(a<b) # a lesser than b 
+print(a>=b)  # a  greaterthan or equalto b
+print(a<=b)  # a  lesserthan or equalto b
+# identity operators
+print(1 in [1,2,3]) # checks weather 1 is there or not
+print(1 not in[1,2,3]) # checks weather it is there or not
+# logical operators
+a=2
+b=3
+print(a>b and 2>3)# display boolean value based on logical and operator
+print(a<b or 2<3)# display boolean value based on logical or operator
+print(a==b and 2==3)# display boolean value based on logical xor operator
+#bitwise operators
+print(a&b) #and(&) operation bitwise
+print(a/b) #or(/) operation bitwise
+print(a^b) #exor(^) opration bitwise
+print(~a,~b) #not(~) operation bitwise
+print(a<<b) #leftshift(<<) operation bitwise
+print(a>>b) #rightshift(>>) operation bitwise
+# assignment operators
+a=b
+print(a) # a value is assigned to a
+a+=b
+print(a) # increment of a value by b
+a-=b
+print(a) # decrement of a value by b
+a*=b
+print(a)# multiply of a value by b
+a/=b
+print(a) #divides of a value by b
+a//=b
+print(a) #floor divides of a value by b and stores in a
+a%=b
+print(a) #modulusof a value by b and stores in a
+a**=b
+print(a) #exponents of a value by b and stores in a
+a=10      #changing a value to avoid type error
+a&=b
+print(a) #performs and(&) with a value by b and stores in a
+a|=b
+print(a) #performs or(|)  with a value by b and stores in a
+
+a^=b
+print(a) #peforms exor(^)with a value by b and stores in a
+a<<=b
+print(a) #performs left shift(<<)with a value by b and stores in a
+a>>=b
+print(a) #performs right shift(>>)with a value by b and stores in a
+
+
+
+
+
+
+
+
+
+
+
+
+
+# In[ ]:
+
+
+
+
